@@ -1,0 +1,43 @@
+.dahboard-header-container{
+    background-color: #f0f0f5;
+
+    height: 51px;
+    min-width: 768px;
+    padding: 0 1.1%;
+    position: relative;
+    z-index: 112;
+}
+
+.justify-content-center{
+    position: relative;
+}
+
+.dahboard-header-container ul {
+    
+        padding:5px;
+        margin:0px;
+        background-color:#EDEDED;
+        list-style:none;
+}
+.dahboard-header-container li{
+
+    display: inline;
+    
+}
+
+.dahboard-header-container ul li {
+    padding: 2px 10px;
+    display: inline-block;
+
+    /* visual do link */
+    background-color:#EDEDED;
+    color: #333;
+    text-decoration: none;
+    border-bottom:3px solid #EDEDED;
+}
+
+.dahboard-header-container nav{
+    display: flex;
+   justify-content: center;
+   padding: 10px;
+}
